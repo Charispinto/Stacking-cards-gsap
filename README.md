@@ -1,3 +1,3 @@
 # HTML CSS stacking cards component using gsap
 
-![image](https://github.com/user-attachments/assets/2362f12f-500d-4832-8276-097f2decdc57)
+![image](https://github.com/user-attachments/assets/68b14190-39d0-4f52-9eb4-b8f6c1c539a3)
