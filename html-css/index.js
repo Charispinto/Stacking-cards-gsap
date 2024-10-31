@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   "use strict";
   gsap.registerPlugin(ScrollTrigger);
 
-  // Lenis
   const lenis = new Lenis();
   lenis.on("scroll", ScrollTrigger.update);
 
@@ -29,16 +28,16 @@ document.addEventListener("DOMContentLoaded", function () {
   
       gsap.to(card, {
           scale: scale,
-        //   rotationX: rotate,
+          rotationX: rotate,
           transformOrigin: "top center",
           ease: 'none',
           scrollTrigger: {
               trigger: e,
-              start: "top " +(70+40*i), // corrected syntax
+              start: "top " +(70+40*i), 
               end: "bottom +=650px",
-              endTrigger: '.end-anim', // corrected to use e for endTrigger
+              endTrigger: '.end-anim', 
               pin: e,
-              pinSpacing: false, // added a value for pinSpacing
+              pinSpacing: false, 
               scrub: true
           }
       });
